@@ -1,0 +1,19 @@
+{
+    "name": "lordonez/sage-extension",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Leo Ordonez III",
+            "email": "leo.or@ibinex.tech"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IBX\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
